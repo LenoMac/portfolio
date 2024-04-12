@@ -1,0 +1,26 @@
+.aboutOne {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 4rem 0;
+  .title {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .text {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    span{
+        margin-top: 10px;
+        width: 200px;
+        height: 4px;
+        background-color: var(--active-color);
+    }
+    p {
+      color: white;
+      font-size: 20px;
+    }
+  }
+}
